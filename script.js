@@ -11,6 +11,11 @@ function calculate() {
     const currency_one = currencyEl_one.value;
     const currency_two = currencyEl_two.value;
 
+    fetch(`https://v6.exchangerate-api.com/v6/ef27665cefd23ac6e6c42d87/latest/${currency_one}`)
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+    });
 }
 
 // Event listeners
