@@ -30,7 +30,7 @@ currencyEl_two.addEventListener('change', calculate);
 amountEl_two.addEventListener('input', calculate);
 
 swap.addEventListener('click', () => {
-    
+    const temp = currencyEl_one.value;
 })
 
 calculate();
