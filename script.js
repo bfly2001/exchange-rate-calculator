@@ -29,4 +29,8 @@ amountEl_one.addEventListener('input', calculate);
 currencyEl_two.addEventListener('change', calculate);
 amountEl_two.addEventListener('input', calculate);
 
+swap.addEventListener('click', () => {
+    
+})
+
 calculate();
